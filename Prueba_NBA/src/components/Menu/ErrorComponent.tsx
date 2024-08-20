@@ -1,4 +1,4 @@
-const ErrorComponent = () => {
+export const ErrorComponent = () => {
     return (
         <>
             <h1>WTF??</h1>
