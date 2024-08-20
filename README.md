@@ -1,18 +1,21 @@
-Mach Eight Sample Project
-Thank you for taking the time to complete this sample project. We're a tech first company and we value our engineers tremendously. We're are looking for hard working, smart engineers with either excellent experience or lots of potential.
 
-Project
-The project is to write a function that searches through NBA player heights based on user input. The raw data is taken from here. The data is served in json format by the endpoint here.
+📊 Proyecto
+El proyecto consiste en escribir una función que busque entre las alturas de jugadores de la NBA según la entrada del usuario. Los datos crudos se obtienen desde aquí y se sirven en formato JSON desde el endpoint proporcionado.
 
-The task is to create an application that takes a single integer input. The application will download the raw data from the website above (https://mach-eight.uc.r.appspot.com) and print a list of all pairs of players whose height in inches adds up to the integer input to the application. If no matches are found, the application will print "No matches found"
+🎯 Tarea
+Crear una aplicación que tome una entrada de número entero. La aplicación descargará los datos crudos desde el sitio web mencionado anteriormente y mostrará una lista de todas las parejas de jugadores cuya altura en pulgadas sume el valor ingresado en la aplicación. Si no se encuentran coincidencias, la aplicación imprimirá "No se encontraron coincidencias".
 
-Sample output is as follows:
+📜 Ejemplo de salida:
 
+markdown
+Copiar código
 > app 139
 
 - Brevin Knight         Nate Robinson
 - Nate Robinson         Mike Wilks
-The algorithm to find the pairs must be faster than O(n^2). All edge cases should be handled appropriately. Though not strictly required, demonstrating comfort in writing unit tests will make your submission stand out. This is not a closed book test. You are encouraged to reach out with any questions that you come across.
 
-Submission
-The preferred form of submission is by publishing a public repo on github with your code and a README file explaining how to run the code. I also can accept an emailed zip file with the same contents.
+🚀 Requisitos
+El algoritmo para encontrar las parejas debe ser más rápido que O(n^2).
+Todos los casos extremos deben manejarse adecuadamente.
+Aunque no es estrictamente necesario, demostrar habilidad en la escritura de pruebas unitarias hará que tu envío se destaque.
+Este no es un examen de libro cerrado. Se te anima a hacer preguntas si encuentras algún problema.
